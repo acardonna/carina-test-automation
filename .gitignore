@@ -26,3 +26,6 @@ target/
 
 ### Resources ###
 database.properties
+
+### Carina Logs ###
+reports/
