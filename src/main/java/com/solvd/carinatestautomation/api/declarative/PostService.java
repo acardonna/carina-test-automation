@@ -1,4 +1,4 @@
-package com.solvd.carinaapitesting.api.declarative;
+package com.solvd.carinatestautomation.api.declarative;
 
 import com.zebrunner.carina.api.AbstractApiMethodV2;
 import com.zebrunner.carina.api.annotation.EndpointTemplate;

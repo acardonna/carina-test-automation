@@ -3,5 +3,6 @@
   <suite-files>
     <suite-file path="testng-carina.xml" />
     <suite-file path="testng-restassured.xml" />
+    <suite-file path="testng-web.xml" />
   </suite-files>
 </suite>

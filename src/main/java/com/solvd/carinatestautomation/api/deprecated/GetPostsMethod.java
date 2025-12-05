@@ -1,4 +1,4 @@
-package com.solvd.carinaapitesting.api.deprecated;
+package com.solvd.carinatestautomation.api.deprecated;
 
 import com.zebrunner.carina.api.AbstractApiMethodV2;
 import com.zebrunner.carina.api.annotation.SuccessfulHttpStatus;

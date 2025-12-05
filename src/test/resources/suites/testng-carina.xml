@@ -2,7 +2,7 @@
 <suite name="Carina API Suite" verbose="1" thread-count="1">
     <test name="Carina API Tests">
         <classes>
-            <class name="com.solvd.carinaapitesting.APITests"/>
+            <class name="com.solvd.carinatestautomation.APITests" />
         </classes>
     </test>
 </suite>

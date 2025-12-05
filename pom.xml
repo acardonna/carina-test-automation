@@ -7,10 +7,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.solvd</groupId>
-  <artifactId>carina-api-testing</artifactId>
+  <artifactId>carina-test-automation</artifactId>
   <version>1.0-SNAPSHOT</version>
 
-  <name>carina-api-testing</name>
+  <name>carina-test-automation</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -79,6 +79,12 @@
       <id>restassured</id>
       <properties>
         <suiteXmlFile>src/test/resources/suites/testng-restassured.xml</suiteXmlFile>
+      </properties>
+    </profile>
+    <profile>
+      <id>web</id>
+      <properties>
+        <suiteXmlFile>src/test/resources/suites/testng-web.xml</suiteXmlFile>
       </properties>
     </profile>
   </profiles>

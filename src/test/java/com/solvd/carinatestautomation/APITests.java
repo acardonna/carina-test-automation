@@ -1,14 +1,14 @@
-package com.solvd.carinaapitesting;
+package com.solvd.carinatestautomation;
 
 import org.skyscreamer.jsonassert.JSONCompareMode;
 import org.testng.annotations.Test;
 
-import com.solvd.carinaapitesting.api.declarative.PostService;
-import com.solvd.carinaapitesting.api.deprecated.CreatePostMethod;
-import com.solvd.carinaapitesting.api.deprecated.DeletePostMethod;
-import com.solvd.carinaapitesting.api.deprecated.GetPostMethod;
-import com.solvd.carinaapitesting.api.deprecated.GetPostsMethod;
-import com.solvd.carinaapitesting.api.deprecated.UpdatePostMethod;
+import com.solvd.carinatestautomation.api.declarative.PostService;
+import com.solvd.carinatestautomation.api.deprecated.CreatePostMethod;
+import com.solvd.carinatestautomation.api.deprecated.DeletePostMethod;
+import com.solvd.carinatestautomation.api.deprecated.GetPostMethod;
+import com.solvd.carinatestautomation.api.deprecated.GetPostsMethod;
+import com.solvd.carinatestautomation.api.deprecated.UpdatePostMethod;
 import com.zebrunner.carina.api.AbstractApiMethodV2;
 import com.zebrunner.carina.api.apitools.validation.JsonCompareKeywords;
 import com.zebrunner.carina.api.binding.TemplateFactory;
